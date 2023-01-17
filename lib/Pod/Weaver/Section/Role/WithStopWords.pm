@@ -2,6 +2,8 @@ package Pod::Weaver::Section::Role::WithStopWords;
 use Moose::Role;
 use experimental qw(signatures);
 
+our $VERSION = 'v0.1.0';
+
 use Pod::Elemental::Element::Pod5::Command;
 
 use namespace::autoclean;

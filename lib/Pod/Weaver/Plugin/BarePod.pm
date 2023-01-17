@@ -2,6 +2,8 @@ package Pod::Weaver::Plugin::BarePod;
 use Moose;
 use experimental qw(signatures);
 
+our $VERSION = 'v0.1.0';
+
 use Moose::Util;
 use Pod::Weaver::Document::Role::Bare;
 

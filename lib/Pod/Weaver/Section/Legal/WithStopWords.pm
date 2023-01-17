@@ -2,6 +2,8 @@ package Pod::Weaver::Section::Legal::WithStopWords;
 use Moose;
 use experimental qw(signatures);
 
+our $VERSION = 'v0.1.0';
+
 use namespace::autoclean;
 
 extends 'Pod::Weaver::Section::Legal';

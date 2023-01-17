@@ -2,6 +2,8 @@ package Pod::Weaver::Document::Role::Bare;
 use Moose::Role;
 use experimental qw(signatures);
 
+our $VERSION = 'v0.1.0';
+
 use namespace::autoclean;
 
 around as_pod_string => sub ($orig, $self, @rest) {
