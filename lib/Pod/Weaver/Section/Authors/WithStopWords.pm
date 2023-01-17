@@ -13,4 +13,5 @@ sub stopwords_for ($self, $input) {
   return map s/\s+<\S+@.*//r, $input->{authors}->@*;
 }
 
+__PACKAGE__->meta->make_immutable;
 1;

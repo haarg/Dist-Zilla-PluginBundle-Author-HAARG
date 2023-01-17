@@ -14,4 +14,5 @@ sub finalize_document ($self, $document, $input) {
   return;
 }
 
+__PACKAGE__->meta->make_immutable;
 1;

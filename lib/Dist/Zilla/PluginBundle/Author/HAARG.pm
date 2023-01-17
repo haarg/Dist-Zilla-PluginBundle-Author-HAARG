@@ -12,6 +12,7 @@ sub bundle_config {
   die 'This is not a real plugin bundle, but just a collection of modules.';
 }
 
+__PACKAGE__->meta->make_immutable;
 1;
 
 __END__

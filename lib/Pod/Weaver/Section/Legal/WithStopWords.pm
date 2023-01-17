@@ -13,4 +13,5 @@ sub stopwords_for ($self, $input) {
   return $input->{license}->holder;
 }
 
+__PACKAGE__->meta->make_immutable;
 1;
