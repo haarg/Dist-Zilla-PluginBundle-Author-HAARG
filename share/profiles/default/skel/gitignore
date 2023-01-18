@@ -1,0 +1,4 @@
+/.build/
+/{{ $dist->name }}-*/
+/{{ $dist->name }}-*.tar
+/{{ $dist->name }}-*.tar.gz
