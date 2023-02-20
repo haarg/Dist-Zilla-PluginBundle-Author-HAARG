@@ -4,9 +4,9 @@ use experimental qw(signatures);
 
 our $VERSION = 'v0.1.0';
 
-use File::ShareDir;
-use Path::Tiny;
-use Carp;
+use File::ShareDir ();
+use Path::Tiny qw(path);
+use Carp qw(confess);
 
 use namespace::autoclean;
 
