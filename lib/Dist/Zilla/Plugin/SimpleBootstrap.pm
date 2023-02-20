@@ -2,6 +2,8 @@ package Dist::Zilla::Plugin::SimpleBootstrap;
 use Moose;
 use experimental qw(signatures);
 
+our $VERSION = 'v0.1.0';
+
 use File::ShareDir ();
 
 use namespace::autoclean;
