@@ -54,3 +54,10 @@ sub install_lib ($self) {
 
 __PACKAGE__->meta->make_immutable;
 1;
+__END__
+
+=encoding UTF-8
+
+=head1 NAME
+
+Dist::Zilla::Plugin::SimpleBootstrap - Bootstrap a Dist::Zilla library

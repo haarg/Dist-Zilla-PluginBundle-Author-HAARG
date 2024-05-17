@@ -18,3 +18,19 @@ sub finalize_document ($self, $document, $input) {
 
 __PACKAGE__->meta->make_immutable;
 1;
+__END__
+
+=encoding UTF-8
+
+=head1 NAME
+
+Pod::Weaver::Plugin::BarePod - Remove leading =pod and trailing =cut
+
+=head1 OVERVIEW
+
+Most Pod documents start with a C<=word> command, so a leading C<=pod> is not
+needed. Similarly, most Pod documents end at the end of the file, so a trailing
+C<=cut> is not needed.
+
+By default, L<Pod::Weaver> will always include those extraneous commands. This
+plugin will remove them.

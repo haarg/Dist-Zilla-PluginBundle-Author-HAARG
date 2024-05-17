@@ -22,3 +22,16 @@ sub profile_dir ($self, $profile_name) {
 
 __PACKAGE__->meta->make_immutable;
 1;
+__END__
+
+=encoding UTF-8
+
+=head1 NAME
+
+Dist::Zilla::MintingProfile::Author::HAARG - Mint a dist like haarg
+
+=head1 SYNOPSIS
+
+  $ dzil new -P Author::HAARG
+
+  $ dzil new -P Author::HAARG -p distar
