@@ -8,8 +8,8 @@ use namespace::autoclean;
 
 with qw(Dist::Zilla::Role::PluginBundle);
 
-sub bundle_config {
-  die 'This is not a real plugin bundle, but just a collection of modules.';
+sub bundle_config ($class, $section) {
+  return ();
 }
 
 __PACKAGE__->meta->make_immutable;
